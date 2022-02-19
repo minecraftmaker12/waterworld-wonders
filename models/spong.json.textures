@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "spongehead_3",
+        "1": "spongehead_1",
+        "2": "sponge_body_3",
+        "3": "sponge_body_2",
+        "4": "sponge_body_1"
+      },
+      "name": "default"
+    }
+  }
+}

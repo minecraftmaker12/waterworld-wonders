@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "waterworld_wonders:block/world_of_water_portal_ew"
+    },
+    "axis=x": {
+      "model": "waterworld_wonders:block/world_of_water_portal_ns"
+    }
+  }
+}

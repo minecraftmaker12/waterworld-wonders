@@ -1,0 +1,12 @@
+{
+  "parent": "waterworld_wonders:custom/spong",
+  "textures": {
+    "all": "waterworld_wonders:blocks/spongesea",
+    "particle": "waterworld_wonders:blocks/spongesea",
+    "0": "waterworld_wonders:blocks/spongehead_3",
+    "1": "waterworld_wonders:blocks/spongehead_1",
+    "2": "waterworld_wonders:blocks/sponge_body_3",
+    "3": "waterworld_wonders:blocks/sponge_body_2",
+    "4": "waterworld_wonders:blocks/sponge_body_1"
+  }
+}

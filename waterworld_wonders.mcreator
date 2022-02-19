@@ -1,0 +1,71 @@
+{
+  "mod_elements": [
+    {
+      "name": "SpongeSeas",
+      "type": "biome",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sponge_seas"
+    },
+    {
+      "name": "WorldOfWater",
+      "type": "dimension",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "world_of_water",
+      "metadata": {
+        "ep": true
+      }
+    },
+    {
+      "name": "SeaSponge",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sea_sponge"
+    },
+    {
+      "name": "Spongegroup",
+      "type": "structure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spongegroup"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.waterworld_wonders.world_of_water": "World Of Water Portal Igniter",
+      "biome.waterworld_wonders.sponge_seas": "Sponge Seafloor",
+      "block.waterworld_wonders.sea_sponge": "Sea Sponge"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "waterworld_wonders",
+    "modName": "Waterworld Wonders",
+    "version": "1.0.0",
+    "author": "dooli, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.waterworldwonders",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100354000
+}
