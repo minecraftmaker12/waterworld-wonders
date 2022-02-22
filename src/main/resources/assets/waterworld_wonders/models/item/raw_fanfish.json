@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "waterworld_wonders:items/cyan_tipped_fanfish_item"
+  }
+}

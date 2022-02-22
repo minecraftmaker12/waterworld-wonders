@@ -13,7 +13,7 @@
       "type": "dimension",
       "sortid": 5,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "world_of_water",
       "metadata": {
         "ep": true
@@ -34,14 +34,85 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "spongegroup"
+    },
+    {
+      "name": "CyantippedFanfish",
+      "type": "livingentity",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyantipped_fanfish"
+    },
+    {
+      "name": "StripedPreedor",
+      "type": "livingentity",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "striped_preedor"
+    },
+    {
+      "name": "RawFanfish",
+      "type": "food",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_fanfish"
+    },
+    {
+      "name": "CookedFanfish",
+      "type": "food",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cooked_fanfish"
+    },
+    {
+      "name": "PreedorEyeFoodEaten",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "preedor_eye_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PreedorEye",
+      "type": "food",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "preedor_eye"
+    },
+    {
+      "name": "Cookfanfish",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cookfanfish"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.waterworld_wonders.world_of_water": "World Of Water Portal Igniter",
+      "item.waterworld_wonders.preedor_eye": "Preedor Eye",
+      "item.waterworld_wonders.world_of_water": "World Of Water Bubble",
+      "item.waterworld_wonders.cyantipped_fanfish_spawn_egg": "Cyantipped Fanfish Spawn Egg",
       "biome.waterworld_wonders.sponge_seas": "Sponge Seafloor",
+      "entity.waterworld_wonders.cyantipped_fanfish": "Cyantipped Fanfish",
+      "item.waterworld_wonders.cooked_fanfish": "Cooked Fanfish",
+      "entity.waterworld_wonders.striped_preedor": "Striped Preedor",
+      "item.waterworld_wonders.striped_preedor_spawn_egg": "Striped Preedor Spawn Egg",
+      "item.waterworld_wonders.raw_fanfish": "Raw Fanfish",
       "block.waterworld_wonders.sea_sponge": "Sea Sponge"
     }
   },

@@ -51,7 +51,7 @@
       "name": "waterworld_wonders:world_of_water",
       "bedrock_roof_position": -10,
       "bedrock_floor_position": 0,
-      "sea_level": 63,
+      "sea_level": 99,
       "disable_mob_generation": true,
       "default_block": {
         "Name": "minecraft:stone"
