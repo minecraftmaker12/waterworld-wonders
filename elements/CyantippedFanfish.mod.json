@@ -117,7 +117,7 @@
     "maxNumberOfMobsPerGroup": 4,
     "restrictionBiomes": [
       {
-        "value": "CUSTOM:SpongeSeas"
+        "value": "CUSTOM:CoralCove"
       }
     ],
     "spawnInDungeons": false

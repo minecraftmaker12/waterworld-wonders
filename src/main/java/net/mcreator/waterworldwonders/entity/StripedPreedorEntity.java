@@ -24,6 +24,7 @@ import net.minecraft.item.Item;
 import net.minecraft.entity.passive.SquidEntity;
 import net.minecraft.entity.monster.MonsterEntity;
 import net.minecraft.entity.ai.goal.RandomSwimmingGoal;
+import net.minecraft.entity.ai.goal.NearestAttackableTargetGoal;
 import net.minecraft.entity.ai.goal.MeleeAttackGoal;
 import net.minecraft.entity.ai.goal.LookRandomlyGoal;
 import net.minecraft.entity.ai.goal.HurtByTargetGoal;
@@ -63,6 +64,8 @@ public class StripedPreedorEntity extends WaterworldWondersModElements.ModElemen
 	public void addFeatureToBiomes(BiomeLoadingEvent event) {
 		boolean biomeCriteria = false;
 		if (new ResourceLocation("waterworld_wonders:sponge_seas").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("waterworld_wonders:coral_cove").equals(event.getName()))
 			biomeCriteria = true;
 		if (!biomeCriteria)
 			return;
@@ -108,8 +111,9 @@ public class StripedPreedorEntity extends WaterworldWondersModElements.ModElemen
 			super.registerGoals();
 			this.goalSelector.addGoal(1, new MeleeAttackGoal(this, 1.2, false));
 			this.goalSelector.addGoal(2, new RandomSwimmingGoal(this, 1, 40));
-			this.targetSelector.addGoal(3, new HurtByTargetGoal(this));
-			this.goalSelector.addGoal(4, new LookRandomlyGoal(this));
+			this.targetSelector.addGoal(3, new NearestAttackableTargetGoal(this, CyantippedFanfishEntity.CustomEntity.class, false, false));
+			this.targetSelector.addGoal(4, new HurtByTargetGoal(this));
+			this.goalSelector.addGoal(5, new LookRandomlyGoal(this));
 		}
 
 		@Override

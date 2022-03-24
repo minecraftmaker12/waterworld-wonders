@@ -15,7 +15,6 @@ import net.minecraft.world.gen.feature.FeatureSpread;
 import net.minecraft.world.gen.feature.Feature;
 import net.minecraft.world.gen.GenerationStage;
 import net.minecraft.world.biome.MobSpawnInfo;
-import net.minecraft.world.biome.DefaultBiomeFeatures;
 import net.minecraft.world.biome.BiomeGenerationSettings;
 import net.minecraft.world.biome.BiomeAmbience;
 import net.minecraft.world.biome.Biome;
@@ -51,9 +50,6 @@ public class SpongeSeasBiome extends WaterworldWondersModElements.ModElement {
 								.withConfiguration(new SphereReplaceConfig(Blocks.GRAVEL.getDefaultState(), FeatureSpread.func_242253_a(2, 3), 2,
 										ImmutableList.of(Blocks.SAND.getDefaultState(), Blocks.SAND.getDefaultState())))
 								.withPlacement(Features.Placements.SEAGRASS_DISK_PLACEMENT).func_242731_b(4));
-				DefaultBiomeFeatures.withOverworldOres(biomeGenerationSettings);
-				DefaultBiomeFeatures.withFrozenTopLayer(biomeGenerationSettings);
-				DefaultBiomeFeatures.withOceanCavesAndCanyons(biomeGenerationSettings);
 				MobSpawnInfo.Builder mobSpawnInfo = new MobSpawnInfo.Builder().isValidSpawnBiomeForPlayer();
 				biome = new Biome.Builder().precipitation(Biome.RainType.RAIN).category(Biome.Category.NONE).depth(0.1f).scale(0.2f).temperature(0.5f)
 						.downfall(0.5f).setEffects(effects).withMobSpawnSettings(mobSpawnInfo.copy())

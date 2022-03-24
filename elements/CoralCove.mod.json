@@ -2,12 +2,12 @@
   "_fv": 24,
   "_type": "biome",
   "definition": {
-    "name": "Sponge Seafloor",
+    "name": "Coral Cove",
     "groundBlock": {
       "value": "Blocks.SAND#0"
     },
     "undergroundBlock": {
-      "value": "Blocks.SAND#0"
+      "value": "Blocks.STONE#0"
     },
     "ambientSound": {
       "value": ""
@@ -38,9 +38,7 @@
     "biomeType": "WARM",
     "spawnBiome": false,
     "biomeWeight": 10,
-    "biomeDictionaryTypes": [
-      "OCEAN"
-    ],
+    "biomeDictionaryTypes": [],
     "grassPerChunk": 0,
     "seagrassPerChunk": 0,
     "flowersPerChunk": 0,
@@ -52,13 +50,13 @@
     "cactiPerChunk": 0,
     "treesPerChunk": 0,
     "vanillaTreeType": "Default",
-    "treeType": 1,
-    "minHeight": 0,
+    "treeType": 0,
+    "minHeight": 7,
     "treeStem": {
-      "value": "Blocks.AIR"
+      "value": ""
     },
     "treeBranch": {
-      "value": "Blocks.AIR"
+      "value": ""
     },
     "treeVines": {
       "value": ""

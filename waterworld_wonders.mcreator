@@ -98,6 +98,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "cookfanfish"
+    },
+    {
+      "name": "CoralCove",
+      "type": "biome",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coral_cove"
     }
   ],
   "variable_elements": [],
@@ -113,7 +121,8 @@
       "entity.waterworld_wonders.striped_preedor": "Striped Preedor",
       "item.waterworld_wonders.striped_preedor_spawn_egg": "Striped Preedor Spawn Egg",
       "item.waterworld_wonders.raw_fanfish": "Raw Fanfish",
-      "block.waterworld_wonders.sea_sponge": "Sea Sponge"
+      "block.waterworld_wonders.sea_sponge": "Sea Sponge",
+      "biome.waterworld_wonders.coral_cove": "Coral Cove"
     }
   },
   "foldersRoot": {

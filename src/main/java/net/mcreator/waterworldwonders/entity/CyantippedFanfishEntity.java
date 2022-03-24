@@ -61,7 +61,7 @@ public class CyantippedFanfishEntity extends WaterworldWondersModElements.ModEle
 	@SubscribeEvent
 	public void addFeatureToBiomes(BiomeLoadingEvent event) {
 		boolean biomeCriteria = false;
-		if (new ResourceLocation("waterworld_wonders:sponge_seas").equals(event.getName()))
+		if (new ResourceLocation("waterworld_wonders:coral_cove").equals(event.getName()))
 			biomeCriteria = true;
 		if (!biomeCriteria)
 			return;
